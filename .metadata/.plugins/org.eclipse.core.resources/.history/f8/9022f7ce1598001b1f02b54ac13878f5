@@ -1,0 +1,26 @@
+import java.net.*;
+import java.io.*;
+
+public class EchoClient {
+	public static void main(String[] args) throw Exception {
+		
+		if (args.length != 2) {
+			System.err.println("Usage: java EchoClient <host name> <port number>");
+			System.exit(1);
+		}
+		
+		String hostName = args[0];
+		int portNumber = Integer.parseInt(args[1]);
+		
+		try(
+			Socket echoSocket = new Socket(hostname, portNumber);
+			PrintWriter out = new PrintWriter.getOutputStream(), true;
+			BufferedReader(
+					new InputStreamReader(echoSocket.getInputStream()));
+		
+		
+	}
+	
+	
+
+}

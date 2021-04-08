@@ -34,7 +34,7 @@ public class EchoClient {
 			System.exit(1);
 		
 		} catch (IOException e) {
-			System.err.println("Couldn`t get I/O for the connection to " + hostName);
+			System.err.printl("Couldn`t get I/O for the connection to " + hostName);
 			System.exit(1);
 		}
 		
@@ -43,4 +43,4 @@ public class EchoClient {
 	
 }	
 
-
+}
