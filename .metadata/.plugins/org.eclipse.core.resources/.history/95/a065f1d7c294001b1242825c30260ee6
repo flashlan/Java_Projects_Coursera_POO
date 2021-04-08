@@ -1,0 +1,7 @@
+
+public class Carro extends veiculo {
+		private int cilindrada;
+		private boolean airbag;
+
+		
+}

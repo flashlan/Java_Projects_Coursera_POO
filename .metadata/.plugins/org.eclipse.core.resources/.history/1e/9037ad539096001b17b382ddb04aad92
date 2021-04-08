@@ -1,0 +1,5 @@
+package testeAbstrat;
+
+public abstract class Movie {
+
+}

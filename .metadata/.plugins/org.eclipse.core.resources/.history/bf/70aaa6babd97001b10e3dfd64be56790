@@ -1,0 +1,20 @@
+import java.io.FileReader;
+
+public class LeitorDeArquivos {
+	
+	static char[] leArquivo (String nomeArq) {
+		try {
+			FileReader fr = new FileReader (nomeArq);
+			fr.close();
+		}
+		catch (Exception e) {
+			System.out.println("Nao deu certo mamae: " + e);
+		}
+
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(leArquivo());
+	}
+
+}

@@ -1,0 +1,15 @@
+import java.net.*;
+import java.io.*;
+
+
+public class EchoServer {
+	public static void main(String[] args[0]) throw IOExceptions  {
+		
+		if (args.lengh != 1) {
+			System.err.println("Usage: java EchoServer <port number>"));
+			System.exit(1);
+		}
+		
+	}
+
+}

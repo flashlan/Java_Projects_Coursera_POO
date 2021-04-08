@@ -1,0 +1,14 @@
+package testeAbstrato2;
+
+public interface ObjetoEspacial {
+	int k  = 42;
+	
+	int getPosicaoX();
+	int getPosicaoY();
+	
+	void setPosicaoX();
+	void setPosicaoY();
+	
+	
+
+}

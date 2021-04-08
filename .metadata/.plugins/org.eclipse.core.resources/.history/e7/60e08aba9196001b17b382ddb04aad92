@@ -1,0 +1,5 @@
+package testeAbstrato2;
+
+public interface ObjetoEspacial {
+
+}

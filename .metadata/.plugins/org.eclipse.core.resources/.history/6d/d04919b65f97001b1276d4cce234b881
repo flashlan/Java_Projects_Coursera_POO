@@ -1,0 +1,16 @@
+
+public class EmpregadoAvulso extends Empregado {
+	private int pagamento;
+	
+	EmpregadoAvulso (int valor) 
+	{
+		pagamento = valor;
+	}
+
+	@Override
+	int pagamentoDoMes() {
+		// TODO Auto-generated method stub
+		return pagamento;
+	}
+
+}

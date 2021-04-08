@@ -1,0 +1,13 @@
+import java.util.List;
+import java.util.ArrayList;
+
+abstract public class Empregado {
+	abstract int pagamentoDoMes();
+	
+	public static vois main(String[] args) {
+		List<Empregado> corpoDeTrabalho = new AraayList<>();
+		
+		
+	}
+
+}
