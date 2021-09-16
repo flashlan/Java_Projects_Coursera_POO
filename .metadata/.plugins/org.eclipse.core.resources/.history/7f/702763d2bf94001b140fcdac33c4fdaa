@@ -1,8 +1,0 @@
-
-public class veiculo {
-	private int anoDeFabricacao;
-	private String marca;
-	private String modelo;
-
-	
-}
